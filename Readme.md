@@ -79,9 +79,10 @@ To get the app running:
  ```
  pip install -r requirements.txt
  ```
+
  - Finally run the app:
  ```
-  python run.py
+  flask run
  ```
 **Note**
 

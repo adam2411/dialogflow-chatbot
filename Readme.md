@@ -3,7 +3,7 @@
 This is a demo application showing how to build a Chat bot using Flask and Dialogflow . I am using Indian government data to fetch information of temperature and rainfall of various cities in India and show it on the front-end. To show end to end integration of a chat-bot using dialogflow and flask. 
 
 
-##Follow the instruction below to get this project running on your local environment
+## Follow the instruction below to get this project running on your local environment
 
 ### Prerequisites
 
@@ -56,7 +56,7 @@ Then, update the values in the `controllers/Constant.py` file with the correct i
    - To get your `project_id`, open the JSON file with your code editor, you will see a field - "project_id". The value is your `project_id`
 
 
-####Data Set
+#### Data Set
 
 This application is using [Government Data](https://data.gov.in/resources/monthly-mean-maximum-minimum-temperature-and-total-rainfall-based-upon-1901-2000-data-3) to fetch details of a city rainfall and min and max temperature.
 It is already present in app/controllers/data.json file.

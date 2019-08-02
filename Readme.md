@@ -1,6 +1,6 @@
 # How to build a chat bot with Flask and Dialogflow
 
-This is a demo application showing how to build a Chat bot using Flask and Dialogflow . I am using OMDb API to fetch movie information and show it on the front-end. To show end to end integration of a chat-bot using dialogflow and flask. 
+This is a demo application showing how to build a Chat bot using Flask and Dialogflow . I am using Indian government data to fetch information of temperature and rainfall of various cities in India and show it on the front-end. To show end to end integration of a chat-bot using dialogflow and flask. 
 
 
 ##Follow the instruction below to get this project running on your local environment
@@ -56,17 +56,12 @@ Then, update the values in the `controllers/Constant.py` file with the correct i
    - To get your `project_id`, open the JSON file with your code editor, you will see a field - "project_id". The value is your `project_id`
 
 
-#### OMDb API key
+####Data Set
 
-This application is using [OMDb](http://www.omdbapi.com/) to fetch details of a movie ( Intent ). So you need to get an API key.
+This application is using [Government Data](https://data.gov.in/resources/monthly-mean-maximum-minimum-temperature-and-total-rainfall-based-upon-1901-2000-data-3) to fetch details of a city rainfall and min and max temperature.
+It is already present in app/controllers/data.json file.
 
-To get a free API access key, head to [OMDb](http://www.omdbapi.com/apikey.aspx). Enter the required details, then submit the form. An email will be sent to you that contains your API key. You also need to activate your account from the email sent to you.
 
-Once you have your key, update the the `controllers/Constant.py`:
-
-```
-API_KEY=API_KEY
-```
 
 ### Running the App
 

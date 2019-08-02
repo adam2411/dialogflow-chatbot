@@ -9,5 +9,6 @@ from .controllers import index
 
 def create_app():
     app = Flask(__name__)
+    app.secret_key = "safjkdbsafb8123123"
     app.register_blueprint(index.bp)
     return app

@@ -43,6 +43,7 @@ class Helper:
 
     @staticmethod
     def get_intent(req):
+        print(req['session'])
         return req.get("queryResult").get("action")
 
     @staticmethod
